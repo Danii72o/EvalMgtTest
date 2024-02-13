@@ -30,7 +30,7 @@ function redirectToFindings() {
 
 
 function toggleDropdown(event) {
-    var dropdown = document.getElementById("myDropdown");
+    var dropdown = document.getElementById(event);
     dropdown.classList.toggle("show");
 }
 // Close the dropdown menu if the user clicks outside of it
