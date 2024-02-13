@@ -1,0 +1,223 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*-----Nav Bar Styles-----*/
+.navbar {
+    background-color: #597dd8;
+    overflow: hidden;
+}
+
+.navbar button {
+    background-color: #597dd8;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+
+}
+
+.navbar button:hover {
+    background-color: #10184d;
+}
+
+.logo {
+    height: 100px; /* Set the height of the logo */
+    padding: 20px;
+    margin-left: 60px; /* Add some margin to the right of the logo */
+}
+
+/*-----Login Form Styles-----*/
+.loginform {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #597dd8;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #10184d;
+}
+
+/*------//Login Form Styles-----*/
+
+/*-------Eval form styles------*/
+.evalform {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    overflow: auto;
+    border: 1px solid red;
+}
+
+label {
+    padding-right: 50px;
+    display: flex;
+    align-items: center; 
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #597dd8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #10184d;
+}
+
+
+
+
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropbtn {
+    background-color: #597dd8;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+}
+
+.dropdown-content a {
+    color: #10184d;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*-----Form DropDown Styles-----*/
+
+.formdropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.formdropbtn {
+    background-color: #597dd8;
+    color: white;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 300px;
+    text-align: left;
+    margin-top: 1px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+
+}
+
+.formdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+}
+
+.formdropdown-content a {
+    color: #10184d;
+    padding: 0px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.formdropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.show {
+    display: block;
+}
+/*-----//Form DropDown Styles-----*/

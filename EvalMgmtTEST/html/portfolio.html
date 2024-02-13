@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+        <button onclick="redirectToHome()">
+            <i class="fa fa-home"></i> <!-- Home icon -->
+            Home
+        </button>
+        <button onclick="logout()">
+            <i class="fa fa-peace"></i>            
+            Logout</button>
+        <button onclick="redirectToFindings()">
+            <i class="fa fa-search"></i>               
+            Search Findings</button> <!-- New button -->
+    </div>
+
+    <div class="container">
+        <h2>Which portfolio will you be evaluating?</h2>
+        <div class="dropdown">
+            <button class="dropbtn">Select an option</button>
+            <div class="dropdown-content">
+                <a href="/html/general_evalForm.html">General</a>
+                <a href="/html/catalyst_evalForm.html">Catalyst</a>
+                <a href="/html/yellow_evalForm.html">Yellow</a>
+                <!-- Add more options as needed -->
+            </div>
+        </div>
+        <!-- You can add additional content or navigation here -->
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!--NAV BAR-->
+
+    <div class="navbar">
+        <img src="#" alt="Logo" class="logo">
+        <button onclick="redirectToHome()">
+            <i class="fa fa-home"></i> <!-- Home icon -->
+            Home
+        </button>
+        <button onclick="logout()">
+            <i class="fa fa-peace"></i>            
+            Logout</button>
+        <button onclick="redirectToFindings()">
+            <i class="fa fa-search"></i>               
+            Search Findings</button> <!-- New button -->
+    </div>
+
+    <!--//NAV BAR-->
+    
+    <!--LOGIN FORM-->
+
+    <div class="loginform">
+        <h2>Login</h2>
+        <form id="loginForm" onsubmit="return loginUser()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!--//LOGIN FORM-->
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
+
+
